@@ -1,0 +1,303 @@
+.our-services {
+    background: url("../src/assets/imgs/background/BubbleServiceBG.png") no-repeat 100% 250%;
+    background-size: contain;
+}
+
+.our-service-bottom {
+    margin: 102px 0 141px 0;
+}
+
+.about-clinic-title {
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.our-services-title {
+    padding-top: 125px;
+}
+
+.our-service_img {
+    width: 80%;
+    margin: auto;
+}
+
+.our-service_list_img {
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+}
+
+.our-service_item_img_top,
+.our-service_item_img_bottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+.our-service_item_img_top img:nth-child(1),
+.our-service_item_img_bottom img:nth-child(2) {
+    width: 25%;
+}
+
+.our-service_item_img_top img:nth-child(2),
+.our-service_item_img_bottom img:nth-child(1) {
+    width: 70%;
+}
+
+.service-appointment {
+    margin-bottom: 130px;
+}
+
+.service-sub-appointment {
+    width: 80%;
+    margin: auto;
+}
+
+.service-consultation,
+.service-treatements,
+.service-product {
+    display: flex;
+    justify-content: space-between;
+}
+
+.service-consultation img,
+.service-treatements img,
+.service-product img {
+    width: 100%;
+}
+
+.service-double_right_vector {
+    display: flex;
+    width: 80%;
+    align-items: center;
+}
+
+.service-double_right_vector span {
+    width: 60%;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1em;
+    color: #091156;
+}
+
+.service-double_right_vector img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+    height: 16px;
+}
+
+.service-double_right_vector span,
+.service-double_right_vector img {
+    cursor: pointer;
+}
+
+.service-responsibility {
+    background: url("../imgs/product/unsplash_NPjNtTExSJ4.png") no-repeat 100% 100%;
+    background-size: cover;
+}
+
+.service-sub-responsibility {
+    background: rgba(9, 17, 86, 0.6);
+}
+
+.service-responsibility_content {
+    width: 80%;
+    display: flex;
+    margin: auto;
+    color: #ffffff;
+    align-items: center;
+    padding: 182px 0;
+}
+
+.service-customers {
+    margin-right: 188px;
+}
+
+.service-customers h3 {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 125%;
+    margin-bottom: 12px;
+}
+
+.service-customers p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1em;
+    color: #cacaca;
+}
+
+.service-video img {
+    margin-right: 28px;
+}
+
+.service-sub-FAQ {
+    width: 80%;
+    margin: auto;
+    margin-top: 116px;
+    margin-bottom: 74px;
+}
+
+.service-title h3 {
+    text-align: center;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 125%;
+    color: #091156;
+}
+
+.accordion-item {
+    border: 1px solid transparent;
+}
+
+.accordion-collapse {
+    border-top: 1px solid #091156 !important;
+}
+
+.accordion-button {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1em;
+    color: #091156;
+}
+
+.accordion-button:not(.collapsed) {
+    color: #091156;
+    background-color: transparent;
+}
+
+.accordion-button::after {
+    background-image: url("../imgs/icon/UpVector.png");
+}
+
+.accordion-button:not(.collapsed)::after {
+    background-image: url("../imgs/icon/UpVector.png");
+}
+
+.accordion-button:focus {
+    border-color: transparent;
+    outline: none;
+    box-shadow: none;
+}
+
+.accordion-body {
+    width: 85%;
+    padding: 53px 76px;
+    background: #f7f7ff;
+    border-radius: 0px 0px 20px 20px;
+    border-bottom: none;
+}
+
+@media (max-width: 575.98px) {
+    .service-sub-appointment{
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .our-services {
+        background-position: 40% 105px;
+        background-size: cover;
+    }
+
+    .our-services-title {
+        padding: 0;
+    }
+
+    .service-consultation_img, .service-treatements_img, .service-product img {
+        width: 40%;
+    }
+
+    .our-vision_content, .our-vision_content {
+        width: 60%;
+    }
+
+    .service-product img {
+        width: 100%;
+    }
+    
+    .service-double_right_vector {
+        width: 100%;
+    }
+
+    .service-double_right_vector span {
+        width: 90%;
+    }
+
+    .service-double_right_vector img {
+        width: 20px;
+    }
+
+    .service-responsibility_content {
+        width: 100%;
+        padding: 18px;
+    }
+
+    .service-customers {
+        margin: 0;
+    }
+
+    .service-video img{
+        margin: 0;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 991.98px) {
+    .service-sub-appointment{
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .our-services {
+        background-position: 40% 105px;
+        background-size: cover;
+    }
+
+    .our-services-title {
+        padding: 0;
+    }
+
+    .service-consultation_img, .service-treatements_img, .service-product img {
+        width: 40%;
+    }
+
+    .our-vision_content, .our-vision_content {
+        width: 60%;
+    }
+
+    .service-product img {
+        width: 100%;
+    }
+    
+    .service-double_right_vector {
+        width: 100%;
+    }
+
+    .service-double_right_vector span {
+        width: 90%;
+    }
+
+    .service-double_right_vector img {
+        width: 20px;
+    }
+
+    .service-responsibility_content {
+        width: 100%;
+        padding: 18px;
+    }
+
+    .service-customers {
+        margin: 0;
+    }
+
+    .service-video img{
+        margin: 0;
+    }
+}

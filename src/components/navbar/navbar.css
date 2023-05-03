@@ -1,0 +1,122 @@
+.navbar-container {
+    display: flex;
+    gap: 45px;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.navbar-item:nth-child(7) {
+    display: none;
+}
+
+.navbar-link_bold {
+    color: #414880;
+    letter-spacing: 0.1em;
+}
+
+.navbar-link_bold::after {
+    content: "+";
+    margin-left: 5px;
+}
+
+.navbar-link {
+    color: #8b8b8b;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+}
+
+.navbar-contact {
+    color: #ffffff;
+}
+
+.navbar-link_bold,
+.navbar-link {
+    transition: all 0.3s linear;
+}
+
+.navbar-link_bold:hover,
+.navbar-link:hover {
+    color: #ff64ae;
+}
+
+.navbar-contact:hover {
+    color: #8b8b8b;
+}
+
+.collapse:not(.show) {
+    display: flex;
+}
+
+@media (max-width: 575.98px) {
+    .navbar-container {
+        position: fixed;
+        left: 0;
+        top: 0;
+        background: black;
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        z-index: 100;
+    }
+
+    .navbar-item:nth-child(7) {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .navbar-item:nth-child(7) button {
+        position: absolute;
+        width: 20px;
+        height: 23px;
+        justify-content: center;
+        font-size: 14px;
+        right: 45px;
+        top: 25px;
+        border: 1px solid #ff64ae;
+        background: #ff64ae;
+    }
+
+    .collapse:not(.show) {
+        display: none;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 991.98px) {
+    .navbar-container {
+        position: fixed;
+        left: 0;
+        top: 0;
+        background: black;
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        z-index: 100;
+    }
+
+    .navbar-item:nth-child(7) {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .navbar-item:nth-child(7) button {
+        position: absolute;
+        width: 20px;
+        height: 23px;
+        justify-content: center;
+        font-size: 14px;
+        right: 45px;
+        top: 25px;
+        border: 1px solid #ff64ae;
+        background: #ff64ae;
+    }
+
+    .collapse:not(.show) {
+        display: none;
+    }
+}

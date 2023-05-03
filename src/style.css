@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+body,
+html {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+.btn-public {
+    padding: 14px 41px;
+    border: 1px solid transparent;
+    background-color: #ff64ae;
+    border-radius: 50px;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    cursor: pointer;
+    letter-spacing: 0.1em;
+    transition: all 0.3s linear;
+}
+
+.btn-public:hover {
+    color: #414880;
+}
+
+.home-service h6,
+.home-body_bottom_content h6,
+.card-desc h6,
+.form-right-top h6,
+.about-clinic-title h6,
+.about-card-team-title h6,
+.our-vision_content h6,
+.our-mission_content h6,
+.our-client h6,
+.our-gallery-top_left h6,
+.gallery-quota_content h6,
+.blog-card_content_title h6,
+.contact-direct_top h6,
+.item-contact_icon_content h6 {
+    line-height: 125%;
+    font-size: 15.5px;
+    color: #ff64ae;
+    margin-bottom: 0;
+}
+
+.home-service h3,
+.home-body_bottom_content h3,
+.card-desc h3,
+.form-right-top h3,
+.about-clinic-title h3,
+.about-card-team-title h3,
+.our-vision_content h3,
+.our-mission_content h3,
+.our-client h3,
+.our-gallery-top_left h3,
+.gallery-quota_content h3,
+.blog-card_content h3,
+.contact-direct_top h3,
+.item-contact_icon_content h3 {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 125%;
+    color: #091156;
+    margin: 12px 0;
+}
+
+.home-service p,
+.home-body_bottom_content p,
+.card-desc p,
+.form-right-top p,
+.about-clinic-title p,
+.about-card-team-title p,
+.our-vision_content p,
+.our-mission_content p,
+.our-client p,
+.our-gallery-top_right p,
+.our-gallery-bottom p,
+.gallery-quota_content p,
+.blog-card_content p,
+.contact-direct_top p,
+.item-contact_icon_content p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #8b8b8b;
+    letter-spacing: 0.1em;
+}
+
+ul {
+    padding-left: 0;
+}
+
+@media (max-width: 575.98px) {
+    body,
+    html {
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 16px;
+        overflow-x: hidden;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 991.98px) {
+    body,
+    html {
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 16px;
+        overflow-x: hidden;
+    }
+}

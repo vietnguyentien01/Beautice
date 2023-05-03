@@ -1,0 +1,200 @@
+.about-clinic-title {
+    width: 80%;
+    margin: auto;
+    margin-top: 125px;
+}
+
+.about-teams {
+    background: url("../../assets/imgs/background/BubbleBG.png") no-repeat 100% 100px;
+    background-size: contain;
+}
+
+.about-team {
+    width: 80%;
+    margin: auto;
+    margin-top: 58px;
+}
+
+.about-card-team_img {
+    display: flex;
+    justify-content: center;
+    background: url("../../assets/imgs/background/unsplash_DE6rYp1nAho.png") no-repeat 50% 33%;
+}
+
+.img-play-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 236px 526px;
+    border-radius: 100px;
+    background: #091156;
+    box-shadow: 0px 4px 33px 10px #e7e9ff;
+}
+
+.img-play-btn img {
+    padding: 26px 28px;
+    cursor: pointer;
+}
+
+.about-card-team-title {
+    text-align: center;
+    margin: 136px 0 87px 0;
+}
+
+.about-card-team_dr {
+    margin-bottom: 150px;
+}
+
+.about-slogans {
+    width: 100%;
+    background: url("../imgs/product/unsplash_Pe9IXUuC6QU.png") no-repeat 100% 100%;
+    background-size: cover;
+}
+
+.about-slogan {
+    padding: 164px 380px;
+    background-color: rgba(9, 17, 86, 0.6);
+    text-align: center;
+}
+
+.about-slogan h6 {
+    font-weight: 600;
+    color: #abb4ff;
+    font-size: 16px;
+    line-height: 125%;
+}
+
+.about-slogan h3 {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 125%;
+    color: #ffffff;
+}
+
+.about-slogan p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1em;
+    color: #cacaca;
+}
+
+.about-ours {
+    padding: 124px 0;
+    background: url("../imgs/background/BubbleBGFooter.png") no-repeat 0% 177%;
+}
+
+.about-our {
+    margin: auto;
+    width: 80%;
+}
+
+.our-vision,
+.our-mission {
+    width: 100%;
+    display: flex;
+    gap: 50px;
+}
+
+.our-vision_content,
+.our-mission_content {
+    width: 40%;
+}
+
+.our-mission_content {
+    margin-right: 140px;
+}
+
+.our-vision_img {
+    width: 50%;
+}
+
+.our-client {
+    margin: 134px 0 94px 0;
+    text-align: center;
+}
+
+.list-logo {
+    display: flex;
+    justify-content: space-around;
+}
+
+@media (max-width: 575.98px) {
+    .about-clinic-title {
+        margin-top: 80px;
+        text-align: center;
+    }
+
+    .about-card-team_img {
+        border-radius: 20px;
+    }
+
+    .about-slogan {
+        padding: 30px 10px;
+    }
+
+    .our-vision_img,
+    .our-mission_img {
+        width: 30%;
+    }
+
+    .our-mission {
+        margin-top: 50px;
+    }
+
+    .our-mission_content {
+        margin: 0;
+    }
+
+    .our-vision_img img,
+    .our-mission_img img {
+        width: 100%;
+    }
+
+    .list-logo {
+        flex-wrap: wrap;
+    }
+    .logo-item {
+        width: 30%;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 991.98px) {
+    .about-clinic-title {
+        margin-top: 80px;
+        text-align: center;
+    }
+
+    .about-card-team_img {
+        border-radius: 20px;
+    }
+
+    .about-slogan {
+        padding: 30px 10px;
+    }
+
+    .our-vision_img,
+    .our-mission_img {
+        width: 30%;
+    }
+
+    .our-mission {
+        margin-top: 50px;
+    }
+
+    .our-mission_content {
+        margin: 0;
+    }
+
+    .our-vision_img img,
+    .our-mission_img img {
+        width: 100%;
+    }
+
+    .list-logo {
+        flex-wrap: wrap;
+    }
+    .logo-item {
+        width: 30%;
+    }
+}

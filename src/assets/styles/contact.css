@@ -1,0 +1,102 @@
+.contact-sub-public {
+    background: url("../imgs/background/BackgroundContactBubble.png") no-repeat 100% 190px;
+    background-size: cover;
+    padding-bottom: 112px;
+}
+
+.contact-sub-public_content {
+    width: 80%;
+    margin: auto;
+}
+
+.contact-public-top {
+    padding-top: 125px;
+}
+
+.contact-public-sub-top {
+    display: flex;
+    align-items: center;
+}
+
+.contact-public-sub-left {
+    width: 50%;
+}
+
+.contact-public-sub-right {
+    width: 50%;
+    padding: 0 8%;
+}
+
+.contact-map img {
+    width: 100%;
+}
+
+.contact-direct {
+    padding: 112px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 93px;
+}
+
+.contact-direct_top {
+    text-align: center;
+}
+
+.list-contact_icon {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    text-align: center;
+}
+
+.sub-item-contact_icon {
+    padding: 71px 77px;
+}
+
+.sub-item-contact_icon img {
+    margin-bottom: 46px;
+}
+
+.item-contact_icon_BG > .sub-item-contact_icon {
+    border-radius: 42px;
+    box-shadow: 0px 25px 50px 25px #f7f7ff;
+}
+
+.item-contact_icon_content h3 {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 125%;
+    text-align: center;
+    color: #091156;
+}
+
+.item-contact_icon_content p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    color: #8b8b8b;
+}
+
+@media (max-width: 575.98px) {
+    .contact-direct_top {
+        width: 80%;
+        margin: auto;
+    }
+
+    .list-contact_icon {
+        flex-direction: column;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 991.98px) {
+    .contact-direct_top {
+        width: 80%;
+        margin: auto;
+    }
+
+    .list-contact_icon {
+        flex-direction: column;
+    }
+}
