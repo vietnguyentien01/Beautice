@@ -73,6 +73,10 @@
     .form-left {
         display: none;
     }
+
+    .form-sub-container {
+        justify-content: center;
+    }
 }
 
 @media (min-width: 576px) and (max-width: 991.98px) {
@@ -88,5 +92,13 @@
 
     .form-left {
         display: none;
+    }
+
+    .home-card-contact_form {
+        align-items: center;
+    }
+
+    .form-sub-container {
+        justify-content: center;
     }
 }

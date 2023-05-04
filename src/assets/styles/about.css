@@ -138,6 +138,11 @@
         width: 30%;
     }
 
+    .our-vision,
+    .our-mission {
+        justify-content: center;
+    }
+
     .our-mission {
         margin-top: 50px;
     }
@@ -176,6 +181,11 @@
     .our-vision_img,
     .our-mission_img {
         width: 30%;
+    }
+
+    .our-vision,
+    .our-mission {
+        justify-content: center;
     }
 
     .our-mission {
