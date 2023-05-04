@@ -17,11 +17,11 @@ function App() {
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-color: #ff64ae;
-    color: #091156;
+    background-color: #8b8b8b;
+    opacity: 0.5;
+    color: #ffffff;
     font-size: 36px;
-    font-weight: 700;
-    `;
+    font-weight: 700;`;
 
   return <Routes>
       <Route path="/" element={<React.Suspense fallback={<LoadingBtn className="btn-loading">
