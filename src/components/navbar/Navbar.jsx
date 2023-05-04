@@ -1,22 +1,12 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import "./navbar.css";
 import { Link } from "react-router-dom";
 
 export default function Navbar() {
-  const [show, setShow] = useState(false);
-
-  useEffect(() => {
-    window.addEventListener("click", () => {
-      if (window.innerWidth < 992) {
-        setShow(true)
-      }else{
-        setShow(false)
-      }
-    })
-  }, []);
+  const [show, setShow] = useState(true);
 
   return  <>
-  {show && <ul className="navbar-container collapse" id="navbarToggleExternalContent">
+    <ul className={show ? "navbar-container collapse" : "navbar-container collapse navbar-container-lg"} id="navbarToggleExternalContent">
       <li className="navbar-item">
         <Link to="/" className="navbar-link_bold">
           Home
@@ -47,43 +37,7 @@ export default function Navbar() {
           Contact
         </Link>
       </li>
-      <li className="navbar-item">
-        <button onClick={() => setShow(!show)}>X</button>
-      </li>
-    </ul>}
-    
-    <ul className="navbar-container collapse navbar-container-lg" id="navbarToggleExternalContent">
-      <li className="navbar-item">
-        <Link to="/" className="navbar-link_bold">
-          Home
-        </Link>
-      </li>
-      <li className="navbar-item">
-        <Link to="/about" className="navbar-link">
-          About
-        </Link>
-      </li>
-      <li className="navbar-item">
-        <Link to="/service" className="navbar-link">
-          Service
-        </Link>
-      </li>
-      <li className="navbar-item">
-        <Link to="/gallery" className="navbar-link">
-          Gallery
-        </Link>
-      </li>
-      <li className="navbar-item">
-        <Link to="/blog" className="navbar-link">
-          Blog
-        </Link>
-      </li>
-      <li className="navbar-item">
-        <Link to="/contact" className="navbar-link btn-public navbar-contact">
-          Contact
-        </Link>
-      </li>
-      <li className="navbar-item">
+      <li className="navbar-item navbar-item-show">
         <button onClick={() => setShow(!show)}>X</button>
       </li>
     </ul>

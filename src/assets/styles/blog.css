@@ -332,9 +332,12 @@
         margin: 0;
     }
 
-    .blog-post-search,
-    .blog-post-right {
-        display: none;
+    .pagination-item p {
+        padding: 11px 15px;
+    }
+
+    .blog-post-search_img img {
+        padding: 15.5px;
     }
 }
 
@@ -349,8 +352,11 @@
         margin: 0;
     }
 
-    .blog-post-search,
-    .blog-post-right {
-        display: none;
+    .pagination-item p {
+        padding: 11px 15px;
+    }
+
+    .blog-post-search_img img {
+        padding: 15.5px;
     }
 }

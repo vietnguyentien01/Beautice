@@ -29,11 +29,6 @@
         padding: 0.7em 0 0.5em 0.5em ;
     }
 
-    .header-left img {
-        width: auto;
-        height: 5vh;
-    }
-
     .header-right {
         display: flex;
         justify-content: flex-end;
@@ -48,11 +43,6 @@
     
     .header-left {
         padding: 0.7em 0 0.5em 0.5em ;
-    }
-
-    .header-left img {
-        width: auto;
-        height: 5vh;
     }
 
     .header-right {
