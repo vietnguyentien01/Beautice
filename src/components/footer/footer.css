@@ -95,7 +95,7 @@
 }
 
 .media-item {
-    width: 4vw;
+    width: 2vw;
 }
 
 .media-list img {
@@ -115,6 +115,7 @@
 .footer-background_img {
     position: absolute;
     width: 100%;
+    height: 50vh;
     bottom: 0;
     z-index: 0;
 }
@@ -157,21 +158,25 @@
         position: absolute;
         bottom: -25%;
     }
-    
+
     .footer-bottom_media {
         margin-top: 15%;
     }
 
-    .footer-background_img{
+    .footer-background_img {
         width: 100%;
         height: 80vh;
         bottom: -50px;
     }
 
-    .footer-bottom_alt p{
+    .footer-bottom_alt p {
         padding: 0;
         text-align: center;
         margin: 0;
+    }
+
+    .media-item {
+        width: 4vw;
     }
 }
 
@@ -206,20 +211,24 @@
         position: absolute;
         bottom: -25%;
     }
-    
+
     .footer-bottom_media {
         margin-top: 15%;
     }
 
-    .footer-background_img{
+    .footer-background_img {
         width: 100%;
         height: 80vh;
         bottom: -50px;
     }
 
-    .footer-bottom_alt p{
+    .footer-bottom_alt p {
         padding: 0;
         text-align: center;
         margin: 0;
+    }
+
+    .media-item {
+        width: 4vw;
     }
 }
